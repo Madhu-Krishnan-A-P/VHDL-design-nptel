@@ -13,4 +13,4 @@ Each design folder includes:
 
 📘 README with design and simulation details
 
-⚠️ Disclaimer: While all VHDL designs are authored by me, the testbench, DUT, and tracefiles were provided by Wadhwani Electronics Laboratory, IIT Bombay for academic evaluation. I do not claim ownership of these support files — they are used strictly for educational purposes.
+⚠️ **Disclaimer:** While the AND gate VHDL design is authored by me, the testbench, DUT, tracefiles, and the `Gates` package is provided by Wadhwani Electronics Laboratory, IIT Bombay for academic evaluation. I do not claim ownership of these support files—they are used strictly for educational purposes.
