@@ -20,7 +20,7 @@ The AND gate is constructed using two NAND gates connected structurally:
 ## How to Simulate Using Quartus Prime Lite
 
 1. Open Quartus Prime Lite and create or open a project in this folder.  
-2. Add the design, DUT, and testbench VHDL files to the project.  
+2. Add the design, DUT, testbench, and Gates package VHDL files to the project.  
 3. Compile the design files.  
 4. Run simulation and verify functionality using the waveform tracefiles with the Quartus waveform viewer.  
 
@@ -31,4 +31,4 @@ The AND gate is constructed using two NAND gates connected structurally:
 
 ---
 
-⚠️ **Disclaimer:** While all VHDL designs are authored by me, the testbench, DUT, and tracefiles were provided by Wadhwani Electronics Laboratory, IIT Bombay for academic evaluation. I do not claim ownership of these support files — they are used strictly for educational purposes.
+⚠️ **Disclaimer:** While the AND gate VHDL design is authored by me, the testbench, DUT, tracefiles, and the `Gates` package is provided by Wadhwani Electronics Laboratory, IIT Bombay for academic evaluation. I do not claim ownership of these support files—they are used strictly for educational purposes.
