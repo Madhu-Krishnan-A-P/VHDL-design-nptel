@@ -1,9 +1,9 @@
-VHDL Structural Design Lab — NPTEL Digital Circuits Workshop (IIT Bombay, 2025)
-This repository contains a collection of digital logic designs developed by me using structural modeling in VHDL, as part of the NPTEL Digital Circuits Workshop conducted by Wadhwani Electronics Laboratory, IIT Bombay.
+VHDL Design Lab — NPTEL Digital Circuits Workshop (IIT Bombay, 2025)
+This repository contains a collection of digital logic designs developed by me using behavioral, dataflow, and structural modelling in VHDL, as part of the NPTEL Digital Circuits Workshop conducted by Wadhwani Electronics Laboratory, IIT Bombay.
 
 Each design folder includes:
 
-✅ Structural VHDL code (original)
+✅ VHDL design code
 
 🧪 Generic self-checking testbench
 
