@@ -1,6 +1,6 @@
 # 4-bit ALU Design in VHDL
 
-This project implements a 4-bit Arithmetic Logic Unit (ALU) using **behavioral modeling** in VHDL. The ALU selects different operations based on specific bits of its inputs, combining arithmetic and logic functions into a single compact module.
+This project implements a 4-bit Arithmetic Logic Unit (ALU) using **behavioural modelling** in VHDL. The ALU selects different operations based on specific bits of its inputs, combining arithmetic and logic functions into a single compact module.
 
 ## 📁 Folder Contents
 
@@ -14,11 +14,11 @@ This project implements a 4-bit Arithmetic Logic Unit (ALU) using **behavioral m
 ## ⚙️ ALU Specification
 
 ### 🔢 Inputs:
-- `A`, `B` : 4-bit `std_logic_vector` inputs
+- `A`, `B`: 4-bit `std_logic_vector` inputs
 - Selector lines are derived from `A(3)` and `B(3)`
 
 ### 📤 Output:
-- `Y` : 6-bit `std_logic_vector` output  
+- `Y`: 6-bit `std_logic_vector` output  
   (higher 2 bits are zero-padded to support future extensions)
 
 ---
@@ -48,10 +48,10 @@ This project implements a 4-bit Arithmetic Logic Unit (ALU) using **behavioral m
 
 ## 📌 Notes
 
-- The design is written in **pure behavioral style**, making it readable and modifiable.
+- The design is written in **pure behavioural style**, making it readable and modifiable.
 - Uses the `numeric_std` package for type-safe conversions between vectors and integers.
 - Padded 6-bit output makes the design scalable for future operations or flags.
 
 ---
 
-⚠️ **Disclaimer:** The testbench and `Gates` library may be part of academic materials provided by **Wadhwani Electronics Lab, IIT Bombay**. This design uses them strictly for educational use only.
+⚠️ **Disclaimer:** While the VHDL design (`alu.vhdl`) is authored by me, the testbench, DUT, waveform tracefiles, and the Gates package are provided by Wadhwani Electronics Laboratory, IIT Bombay for academic evaluation. I do not claim ownership of these support files—they are used strictly for educational purposes.
